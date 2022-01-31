@@ -40,13 +40,13 @@ function App() {
       <Router>
         <Navbar mode={mode} toggleMode={toggleMode} />
         <Switch>
-          <Route exact path='/Text-Utils/about'>
+          <Route exact path='/about'>
             <div className="container">
               <Alert mode={mode} alert={alert} />
               <About mode={mode} showAlert={showAlert} />
             </div>
           </Route>
-          <Route exact path='/Text-Utils'>
+          <Route exact path='/'>
             <div className="container" id='container2'>
               <Alert mode={mode} alert={alert} />
               <Textform mode={mode} showAlert={showAlert} />
