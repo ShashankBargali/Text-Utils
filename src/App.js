@@ -52,6 +52,12 @@ function App() {
               <Textform mode={mode} showAlert={showAlert} />
             </div>
           </Route>
+          <Route exact path='/Text-Utils'>
+            <div className="container" id='container2'>
+              <Alert mode={mode} alert={alert} />
+              <Textform mode={mode} showAlert={showAlert} />
+            </div>
+          </Route>
         </Switch>
       </Router>
     </>
